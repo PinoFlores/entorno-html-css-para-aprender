@@ -6,20 +6,16 @@ const server = require("./framework/index");
 const modules = require("./src/index");
 
 server.get("/women", (req, res) => {
-  // console.log(modules.root);
   const cont = binder(modules.root, {
     content: modules[req.routeName](binder, req.model),
   });
-  // console.log(cont);
   res.send(cont);
 });
 
 server.get("/men", (req, res) => {
-  // console.log(modules.root);
   const cont = binder(modules.root, {
     content: modules[req.routeName](binder, req.model),
   });
-  // console.log(cont);
   res.send(cont);
 });
 
@@ -31,5 +27,5 @@ server.get("*", (req, res) => {
 });
 
 server.listen(3001, () => {
-  console.log(`Example app listening at http://localhost:3001`);
+  console.log(`Click en este enlace http://localhost:3001 para abrirlo en el navegador!`);
 });
