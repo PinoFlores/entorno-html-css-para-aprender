@@ -1,0 +1,92 @@
+/* 
+Todos los estilos para la pagina de detalles.
+*/
+
+.details-container {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-details {
+  height: 47rem;
+  width: 70rem;
+  padding: 0rem;
+  margin: 0 auto;
+  display: flex;
+}
+.product-images {
+  display: flex;
+}
+
+.product-images .images-list {
+  width: 70%;
+  margin-left: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.product-images .images-list ul li {
+  margin-top: 10px;
+}
+
+.product-images .images-list ul li:first-child {
+  margin-top: 0px;
+}
+
+.product-images .images-list ul li img {
+  width: 7rem;
+}
+
+.product-images .image-preview img {
+  height: 100%;
+  margin-left: 15px;
+}
+
+.text {
+  margin: 1rem 4rem;
+}
+
+.text h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+}
+
+.btn-add-to-card {
+  width: 100%;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  color: aliceblue;
+  background-color: black;
+}
+
+/* SCROLL */
+
+/* width */
+.product-images .images-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+.product-images .images-list::-webkit-scrollbar-track {
+  background: transparent;
+  margin-left: 5px;
+}
+
+/* Handle */
+.product-images .images-list::-webkit-scrollbar-thumb {
+  background: #838383;
+}
+
+.product-images .images-list:hover .images-list::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+/* Handle on hover */
+.product-images .images-list::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

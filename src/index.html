@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Demo Zalando</title>
+    <style>
+      * {
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #f8f9fc;
+      }
+      .logo svg {
+        width: 91px;
+      }
+      .header {
+        width: 100%;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+      }
+      .gender a {
+        padding: 6px 10px;
+        border: none;
+        text-decoration: none;
+        color: rgb(49, 49, 49);
+      }
+      .gender a:first-child {
+        background-color: black;
+        color: #fff;
+        font-weight: bold;
+      }
+
+      .sub-header {
+        padding: 0px 10px;
+        border-bottom: 1px solid #c7c7c7;
+      }
+      .sub-header ul {
+        display: flex;
+      }
+      .sub-header ul li {
+        list-style: none;
+        padding: 10px;
+        margin-right: 10px;
+        border-bottom: 2px solid #f8f9fc;
+      }
+      .sub-header ul li:hover {
+        list-style: none;
+        padding: 10px;
+        margin-right: 10px;
+        border-bottom: 2px solid;
+      }
+
+      .sub-header ul li a {
+        text-decoration: none;
+        color: #3e3e3e;
+      }
+
+      .sub-header ul li a:hover {
+        color: #1a1a1a;
+      }
+      .tools button {
+        padding: 10px;
+        border: none;
+        background: transparent;
+        font-size: 1rem;
+      }
+    </style>
+
+    {styles}
+  </head>
+  <body>
+    <div class="header">
+      <div class="gender">
+        <a href="women">Mujer</a>
+        <a href="men">Hombre</a>
+        <a href="women">Niños</a>
+      </div>
+      <div class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 391 136">
+          <g id="Group_63" data-name="Group 63" transform="translate(-475 -619)">
+            <circle
+              id="Ellipse_4"
+              data-name="Ellipse 4"
+              cx="68"
+              cy="68"
+              r="68"
+              transform="translate(475 619)"
+              fill="#ff6900"
+            />
+            <text
+              id="Beyling"
+              transform="translate(489 727)"
+              fill="#1d1d1b"
+              font-size="113"
+              font-family="Roboto-Bold, Roboto"
+              font-weight="700"
+            >
+              <tspan x="0" y="0">Beyling</tspan>
+            </text>
+          </g>
+        </svg>
+      </div>
+      <div class="tools">
+        <button>
+          <svg
+            class="zds-icon RC794g X9n9TI DlJ4rT pVrzNP H3jvU7"
+            height="1em"
+            width="1em"
+            focusable="false"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+            aria-labelledby="tu-cuenta-40627157"
+            role="img"
+            aria-hidden="false"
+          >
+            <title id="tu-cuenta-40627157">Tu cuenta</title>
+            <path
+              d="M21.645 22.866a28.717 28.717 0 0 0-6.46-7.817c-2.322-1.892-4.048-1.892-6.37 0a28.74 28.74 0 0 0-6.46 7.817.75.75 0 0 0 1.294.76 27.264 27.264 0 0 1 6.113-7.413A3.98 3.98 0 0 1 12 15.125a3.81 3.81 0 0 1 2.236 1.088 27.252 27.252 0 0 1 6.115 7.412.75.75 0 1 0 1.294-.76zM12 12.002A6.01 6.01 0 0 0 18.003 6 6.003 6.003 0 1 0 12 12.002zm0-10.505a4.502 4.502 0 1 1 0 9.005 4.502 4.502 0 0 1 0-9.005z"
+            ></path>
+          </svg>
+        </button>
+        <button>
+          <svg
+            class="zds-icon RC794g X9n9TI DlJ4rT pVrzNP H3jvU7"
+            height="1em"
+            width="1em"
+            focusable="false"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+            aria-labelledby="favoritos-40627158"
+            role="img"
+            aria-hidden="false"
+          >
+            <title id="favoritos-40627158">Favoritos</title>
+            <path
+              d="M17.488 1.11h-.146a6.552 6.552 0 0 0-5.35 2.81A6.57 6.57 0 0 0 6.62 1.116 6.406 6.406 0 0 0 .09 7.428c0 7.672 11.028 15.028 11.497 15.338a.745.745 0 0 0 .826 0c.47-.31 11.496-7.666 11.496-15.351a6.432 6.432 0 0 0-6.42-6.306zM12 21.228C10.018 19.83 1.59 13.525 1.59 7.442c.05-2.68 2.246-4.826 4.934-4.826h.088c2.058-.005 3.93 1.251 4.684 3.155.226.572 1.168.572 1.394 0 .755-1.907 2.677-3.17 4.69-3.16h.02c2.7-.069 4.96 2.118 5.01 4.817 0 6.089-8.429 12.401-10.41 13.8z"
+            ></path>
+          </svg>
+        </button>
+        <button>
+          <svg
+            class="zds-icon RC794g X9n9TI DlJ4rT pVrzNP H3jvU7"
+            height="1em"
+            width="1em"
+            focusable="false"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+            aria-labelledby="cesta-40627159"
+            role="img"
+            aria-hidden="false"
+          >
+            <title id="cesta-40627159">Cesta</title>
+            <path
+              d="M21.193 8.712a2.984 2.984 0 0 0-2.986-2.726h-.952v-.751a5.255 5.255 0 0 0-10.51 0v.75h-.951a2.983 2.983 0 0 0-2.986 2.727L1.715 20.73A2.999 2.999 0 0 0 4.7 24h.005l14.599-.027a2.998 2.998 0 0 0 2.98-3.27L21.193 8.712zM8.246 5.235a3.754 3.754 0 0 1 7.508 0v.75H8.246v-.75zm11.056 17.238-14.599.025h-.002a1.496 1.496 0 0 1-1.49-1.631l1.093-12.02a1.488 1.488 0 0 1 1.49-1.36h.95V9.74a.75.75 0 0 0 1.502 0V7.487h7.508V9.74c0 .415.336.75.75.75h.002a.75.75 0 0 0 .75-.75V7.487h.951a1.49 1.49 0 0 1 1.49 1.361l1.092 11.993a1.496 1.496 0 0 1-1.488 1.632z"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="sub-header">
+      <ul>
+        <li>
+          <a href="#">Ideas de Regalo</a>
+        </li>
+        <li>
+          <a href="#">Get the Look</a>
+        </li>
+        <li>
+          <a href="#">Ropa</a>
+        </li>
+        <li>
+          <a href="#">Zapatos</a>
+        </li>
+        <li>
+          <a href="#">Complementos</a>
+        </li>
+        <li>
+          <a href="#">Deporte</a>
+        </li>
+        <li>
+          <a href="#">Marcas</a>
+        </li>
+      </ul>
+    </div>
+    {content}
+  </body>
+</html>
