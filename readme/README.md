@@ -3,10 +3,15 @@
 **Criterios de acceptacion**:
 
 [ ] Se debera mostrar las imagenes del producto
+
 [ ] Su marca
+
 [ ] Su nombre
+
 [ ] Su precio
+
 [ ] Una descripcion
+
 [ ] Button para agregar al carrito de compras
 
 ---
