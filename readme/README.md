@@ -2,17 +2,17 @@
 **Quiero**: mostrar los detalles de un producto en una pagina
 **Criterios de acceptacion**:
 
-[ ] Se debera mostrar las imagenes del producto
+- [ ] Se debera mostrar las imagenes del producto
 
-[] Su marca
+- [ ] Su marca
 
-[] Su nombre
+- [ ] Su nombre
 
-[] Su precio
+- [ ] Su precio
 
-[] Una descripcion
+- [ ] Una descripcion
 
-[] Button para agregar al carrito de compras
+- [ ] Button para agregar al carrito de compras
 
 ---
 
